@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+PARENT_DIR="$(dirname "$DIR")"
+export PYTHONPATH="$PARENT_DIR/src:$PYTHONPATH"
+exec "$PARENT_DIR/.venv/bin/python" "$PARENT_DIR/src/cli/main.py" "$@"

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.cache/
+.config/
+*.arff
+*.csv
+*.tsv
+*.parquet
